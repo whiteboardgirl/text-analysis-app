@@ -19,7 +19,7 @@ from gensim.models import Word2Vec
 import spacy
 from spacy import displacy
 
-# Download NLTK stopwords
+# Download NLTK stopwords if not already present
 try:
     nltk.data.find('corpora/stopwords')
 except LookupError:
